@@ -1,0 +1,34 @@
+{
+  "name": "groupospeak_app",
+  "version": "1.0.0",
+  "description": "Social-network app build for a fictional company, 7th OpenClassrooms project of the training course web developer. Node.js Rest Apis with Express Sequelize & MySQL hosted database.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "sequelize",
+    "mysql",
+    "rest",
+    "api"
+  ],
+  "author": "Thomas Savigner",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.0",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.4",
+    "mysql2": "^2.3.3",
+    "password-validator": "^5.2.1",
+    "sequelize": "^6.19.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^6.3.1",
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.15"
+  }
+}

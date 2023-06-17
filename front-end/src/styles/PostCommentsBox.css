@@ -1,0 +1,56 @@
+/* style for comments box in focus post article */
+
+/* --- colors --- */
+
+/* 
+main colors->
+      1st : #5c4d4d
+      2nd : #915b4a
+      3rd : #a96851
+      4th : #f2f1e7
+*/
+.color-1 {
+    background-color: #5c4d4d;
+}
+.color-2 {
+    background-color: #915b4a;
+}  
+.color-3 {
+    background-color: #a96851;
+}
+.color-4 {
+    background-color: #f2f1e7;
+}
+ 
+/* --- fonts --- */
+
+.font-title {
+    font-family: Barlow, sans-serif;
+}
+.font-text {
+    font-family: BarlowSemiCondensed, sans-serif;
+}
+.font-aside {
+    font-family: BarlowCondensed, sans-serif;
+}
+  
+/*********************************************/
+
+
+.bg-color-3-opac {
+    background-color: rgb(216, 183, 171);
+}
+.section-comment-position {
+    width: 85%;
+}
+.avatar-comment-size {
+    width: 2.5em;
+}
+.header-comment-position {
+    float: left;
+}
+@media (min-width: 768px) {
+    .section-comment-position {
+        width: 55%;
+    }
+}

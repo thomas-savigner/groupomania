@@ -1,0 +1,77 @@
+/* Style for CardPostAnditsComments component */
+.article-position {
+    z-index: 0;
+    width: 95%;
+  }
+.avatar-art-width {
+    width: 15%;
+    height: auto;
+}
+.art-imgcontainer-position {
+    width: 100%;
+    margin-bottom: .75em;
+    max-width: 20em;
+    height: auto;
+    max-height: 25em;
+}
+.footer-bg-color-3-opacity {
+    background-color: rgb(202, 143, 122);
+}
+
+@media (min-width: 576px) {
+    .art-imgcontainer-position {
+        float: right;
+        width:55%;
+        max-width:20em;
+        height: auto;
+        max-height: 25em;
+    }
+}
+
+@media (min-width: 768px) {
+    .article-position {
+        width: 65%;
+        top: 6em;
+        left: 12.5%;
+      }
+    .articleblock-md-position {
+        width: 65%;
+    }
+    .art-imgcontainer-position {
+        float: right;
+        width:35%;
+        max-width:200px;
+        max-height: 200x;
+        max-height: 25em;
+    }
+}
+
+@media (min-width: 992px) {
+    .art-imgcontainer-position {
+        float: none;
+        width:60%;
+        max-width:20em;
+        height: auto;
+        max-height: 25em;
+    }  
+}
+
+@media (min-width: 1200px) {
+    .art-imgcontainer-position {
+        float: none;
+        width:60%;
+        max-width:20em;
+        height: auto;
+        max-height: 25em;
+    }  
+}
+
+@media (min-width: 1400px) {
+    .art-imgcontainer-position {
+        float: none;
+        width:60%;
+        max-width:20em;
+        height: auto;
+        max-height: 25em;
+    }   
+}

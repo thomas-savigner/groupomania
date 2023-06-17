@@ -1,0 +1,291 @@
+/* --- colors --- */
+
+/* 
+main colors->
+      1st : #5c4d4d
+      2nd : #915b4a
+      3rd : #a96851
+      4th : #f2f1e7
+*/
+.color-1 {
+  background-color: #FD2D01;
+}
+
+.color-2 {
+  background-color: #FFD7D7;
+}
+
+.color-3 {
+  background-color: #4E5166;
+}
+
+.color-4 {
+  background-color: #f2f1e7;
+}
+  
+
+  /*--- fonts ---*/
+.font-title {
+  font-family: Barlow, sans-serif;
+}
+
+.font-text {
+  font-family: BarlowSemiCondensed, sans-serif;
+}
+
+.font-aside {
+  font-family: BarlowCondensed, sans-serif;
+  }
+
+/*-- header ---*/
+
+.header-position {
+  top: 0;
+  z-index:1;
+}
+.header-content-position {
+  display: flex;
+  align-items:center
+}
+.logo-header {
+  width: 3em;
+}
+.logo-brand {
+  width: 150px;
+}
+
+h1 {
+  font-family: Shadows Into Light Two, cursive;
+  font-size: x-large;
+  font-weight: 600;
+}
+/*  userMenu */
+.button-usermenu-position {
+  position: fixed;
+  top: 0.5em;
+  right:0.5em;
+  z-index: 1;
+  
+}
+
+
+/* headers tabs*/
+.nav.nav-tabs .nav-link.active {
+  background-color: #a96851;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-weight: 400;
+}
+
+.tabs-container-size {
+  width: 90%;
+  max-width: 25em;
+}
+
+.nav-link {
+  border: #5c4d4d solid 0px;
+}
+
+.nav-tabs .nav-link.active {
+  font-weight: bold;
+  background-color: #915b4a;
+  border: grey groove 3px;
+  border-radius: 5px 5px 0 0;
+}
+
+/***    Signup Form   ***/ 
+
+.avatar-signup-container {
+  height: 7.5em;
+  width: 7.5em;
+  background-color: #f2f1e7;
+}
+.article-picture-container {
+  height: auto;
+  width: 12em;
+  background-color: #f2f1e7;
+}
+
+/* upload file button */
+.thumbnail {
+  border-radius: 2px;
+}
+.btn-danger {
+  background-color: #B73333;
+}
+
+/* File Upload */
+.fake-shadow {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+.fileUpload {
+  position: relative;
+  overflow: hidden;
+}
+.fileUpload #choosefilebutton {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 33px;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.img-preview {
+  max-width: 100%;
+}
+.box-position {
+  width: 100%;
+  position: absolute;
+  overflow-y: scroll;
+  top: 6em;
+  
+}
+.post-hashtags-area {
+  height: 3em;
+}
+.post-topic-area {
+  height: 3em;
+}
+.post-article-area {
+  height: 10em;
+}
+.article-size {
+  height: 65em;
+}
+.lockbrand-position {
+  height: 2.7em;
+  position: fixed;
+  bottom: 0;
+}
+.navbar-position {
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.linktoppage-margin {
+  margin-bottom: 4em;
+}
+.avatar-dropdown {
+  width: 4em;
+}
+.commentsbox-position {
+  margin-bottom: 8em;
+}
+@media (min-width: 576px) {
+  
+  
+
+  .lockbrand-position {
+    width: 50%;
+    position: fixed;
+    bottom: 0;
+  }
+}
+
+@media (min-width: 768px) {
+ 
+  /*.box-sm-position {
+    width: 100%;
+    position: abolute;
+    top: 7em;
+    left: 0%;
+  }*/
+
+  /* left & right column */
+  .img-fit {
+    object-fit: cover;
+  }
+    
+  .container-md-position {
+    top: 2em;
+    z-index: -1;
+  }
+
+  .container-center-md-position {
+    top: 2em;
+  }
+
+  .left-column-md-position {
+    left: 0.2%;
+  }
+  .right-column-md-position {
+    left: 91.5%;
+  }
+
+  .main-column-md-position {
+    z-index: -1;
+    left: 8.2%;
+  }
+
+	.position-md-fixed {
+		position: fixed !important;
+	}
+
+  .lockbrand-position {
+    width: 30%;
+    position: fixed;
+    bottom: 0;
+  }
+
+  /*.box-md-position {
+    width: 42em;
+    position: fixed;
+    left: 14em;
+    top: 10em;
+  }*/
+
+  .navbar-position {
+    position: static;
+    width: 30em;
+    margin-left: 2%;
+  }
+}
+
+@media (min-width: 992px) {
+  .lockbrand-position {
+    position : fixed;
+    width: 12%; 
+    top: 90%;
+    left: 0.25em;    
+  }
+
+  /*.box-lg-position {
+    width: 50em;
+    position: fixed;
+    left: 20em;
+  }*/
+}
+
+@media (min-width: 1200px) {
+  .lockbrand-position {
+    position : fixed;
+    top: 90%;
+    left: 1em;    
+  }
+
+  /*.box-lg-position {
+    width: 50em;
+    position: fixed;
+    left: 30em;
+  }*/
+}
+
+@media (min-width: 1400px) {
+  .lockbrand-position {
+    position : fixed;
+    top: 91%;
+    left: 2em;    
+  }
+
+  /*.box-lg-position {
+    width: 50em;
+    position: fixed;
+    left: 30em;
+  }*/
+}
